@@ -1,0 +1,23 @@
+input[type="text"] {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 2px 4px #ffffff50;
+}
+input[type="text"]::placeholder {
+    color: #fff;
+}
+input[type="text"]:focus {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+@media screen and (max-width: 800px) {
+    input[type="text"] {
+        width: 80%;
+    }
+}
