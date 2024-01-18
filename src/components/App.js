@@ -1,17 +1,13 @@
-import { useState } from "react";
-import SearchCity from "./SearchCity";
-import Timer from "./Timer";
-import Weather from "./Weather";
 import './App.css';
+import { Provider } from 'react-redux';
+import store from '../redux/store'
+import Main from "./weather/Main";
 function App() {
 
-  const [background, setBackground] = useState("heat");
   return (
-    <div className={`App back-${background}`}>
-      <SearchCity />
-      <Timer />
-      <Weather />
-    </div>
+    <Provider store={store}>
+      <Main />
+    </Provider>
   );
 }
 
