@@ -2,6 +2,7 @@
   "name": "weather",
   "author": "Ali Ghaviel",
   "version": "0.1.0",
+  "homepage": "https://ali-ghavidel.github.io/weatherApp",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -30,11 +31,15 @@
     "three": "^0.160.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
