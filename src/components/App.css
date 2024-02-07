@@ -1,0 +1,42 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.date_card{
+    color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.date_card h2{
+    font-weight: 200;
+}
+.temp h5 {
+    font-weight: 200;
+}
+.temp h1 {
+    font-weight: 200;
+}
+.city {
+    font-weight: 400;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #001a31;
+    padding: 1rem;
+}
+.footer a{
+    color: #00886e;
+    text-decoration: none;
+}
