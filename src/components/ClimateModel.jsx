@@ -28,6 +28,10 @@ const ClimateModel = () => {
             src = './weather/fog/scene.gltf';
             scale = 1;
             break;
+        case 'haze':
+            src = './weather/fog/scene.gltf';
+            scale = 1;
+            break;
         default:
             break;
     }
